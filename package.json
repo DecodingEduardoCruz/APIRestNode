@@ -1,0 +1,26 @@
+{
+  "name": "response-node",
+  "version": "1.0.0",
+  "description": "API REST RESPONSE 2021 Version: 1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bind/server.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.3.0",
+    "mongoose": "^6.1.6",
+    "sendgrid": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
